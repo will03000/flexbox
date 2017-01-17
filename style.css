@@ -1,0 +1,27 @@
+body{
+	display: flex;
+	flex-direction: column;	/*mettre les boites en colonnes*/
+}
+header , footer{
+	background-color: #ffeebb;
+}
+#page{
+	display: flex;
+	flex:1; /*pour qu'il prenne toute la largeur*/
+}
+nav{
+	width: 100px;
+	background-color: #cebfff;
+}
+#conteneur{
+	flex:1 1 auto;/*pour qu'il prenne toute la place disponible */
+	background-color:darkseagreen;
+	display:flex;
+	flex-direction:column;
+}
+article{
+	display: flex;
+}
+p{
+	padding: 0 5px ;
+}
